@@ -1,0 +1,22 @@
+server:
+   port: 8080
+spring:
+   mvc:
+      view:
+  # thymeleaf:
+         prefix: /WEB-INF/views/
+         suffix: .jsp
+   datasource:
+      url: jdbc:mysql://localhost:3306/chedata_zhengshi?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true&useSSL=true
+      username: root
+      password: 1234
+      dirver-class-name: com.mysql.jdbc.Driver
+jpa:
+   hibernate:
+      ddl-auto: update
+ #  默认访问路径
+ #  servlet:
+ #    context-path: /hello
+name: 嘻嘻
+age: 22
+#content: "name:${name},age:${age}"

@@ -1,0 +1,147 @@
+
+2018-09-03 11:38:26
+[DEBUG]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is debug!!!
+
+2018-09-03 11:38:26
+[INFO]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is info!!!
+
+2018-09-03 11:38:26
+[WARN]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is warn!!!
+
+2018-09-03 11:38:26
+[ERROR]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is error!!!
+
+2018-09-03 11:38:26
+[FATAL]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is fatal!!!
+
+2018-09-03 11:38:48
+[DEBUG]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is debug!!!
+
+2018-09-03 11:38:48
+[INFO]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is info!!!
+
+2018-09-03 11:38:48
+[WARN]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is warn!!!
+
+2018-09-03 11:38:48
+[ERROR]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is error!!!
+
+2018-09-03 11:38:48
+[FATAL]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is fatal!!!
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.logging.LoggerFactory.make()]: Logging Provider: org.jboss.logging.Log4jLoggerProvider
+
+2018-09-03 12:59:17
+[INFO]-[Thread: background-preinit]-[org.hibernate.validator.internal.util.Version.<clinit>()]: HV000001: Hibernate Validator 6.0.11.Final
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault()]: Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream()]: Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath()]: Trying to load META-INF/validation.xml via TCCL
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath()]: Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream()]: No META-INF/validation.xml found. Using annotation based configuration only.
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory()]: Loaded expression factory via original TCCL
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator as ValidatorFactory-scoped message interpolator.
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+
+2018-09-03 12:59:17
+[DEBUG]-[Thread: background-preinit]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault()]: Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.messageinterpolation.ResourceBundleMessageInterpolator.buildExpressionFactory()]: Loaded expression factory via original TCCL
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.resolver.TraversableResolvers.getDefault()]: Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.ConfigurationImpl.messageInterpolator()]: Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.ConfigurationImpl.constraintValidatorFactory()]: Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.ConfigurationImpl.parameterNameProvider()]: Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream()]: Trying to load META-INF/validation.xml for XML based Validator configuration.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath()]: Trying to load META-INF/validation.xml via user class loader
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath()]: Trying to load META-INF/validation.xml via TCCL
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.xml.config.ResourceLoaderHelper.getResettableInputStreamForPath()]: Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.xml.config.ValidationXmlParser.getValidationXmlInputStream()]: No META-INF/validation.xml found. Using annotation based configuration only.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+
+2018-09-03 12:59:18
+[DEBUG]-[Thread: main]-[org.hibernate.validator.internal.engine.ValidatorFactoryImpl.logValidatorFactoryScopedConfiguration()]: HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+
+2018-09-03 12:59:19
+[DEBUG]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is debug!!!
+
+2018-09-03 12:59:19
+[INFO]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is info!!!
+
+2018-09-03 12:59:19
+[WARN]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is warn!!!
+
+2018-09-03 12:59:19
+[ERROR]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is error!!!
+
+2018-09-03 12:59:19
+[FATAL]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is fatal!!!
+
+2018-09-03 13:00:33
+[DEBUG]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is debug!!!
+
+2018-09-03 13:00:33
+[INFO]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is info!!!
+
+2018-09-03 13:00:33
+[WARN]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is warn!!!
+
+2018-09-03 13:00:33
+[ERROR]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is error!!!
+
+2018-09-03 13:00:33
+[FATAL]-[Thread: main]-[com.example.demo.DemoApplicationTests.contextLoads()]:  This is fatal!!!
